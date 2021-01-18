@@ -31,20 +31,18 @@
   height: 100px;
   z-index: 15;
   top: 15%;
-  left: 50%;
+  left: 51%;
   margin: -100px 0 0 -150px;
 }
 
 #wrapper
 {
-  position: absolute;
+  height: 500px;
+  overflow-y: auto;
   width: 800px;
-  z-index: 15;
-  top: 30%;
-  left: 35%;
-  margin: -100px 0 0 -150px;
-  border-radius: 30px;
-  background-color: lightgray;
+  float:left;
+  position: relative;
+  margin-left: 500px;
 }
 .posting
 {
